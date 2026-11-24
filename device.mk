@@ -393,3 +393,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files makefile
 $(call inherit-product, vendor/nothing/Tetris/Tetris-vendor.mk)
+
+#BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
