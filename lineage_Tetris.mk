@@ -38,3 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=$(DEVICE_CODENAME) \
     SystemDevice=$(DEVICE_CODENAME) \
     SystemName=$(DEVICE_CODENAME)
+
+#KEY
+-include vendor/lineage-priv/keys/keys.mk
