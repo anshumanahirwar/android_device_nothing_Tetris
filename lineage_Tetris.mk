@@ -16,10 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-BLISS_BUILDTYPE := OFFICIAL
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_HAS_UDFPS := true
-GAPPS_ARCH := arm64
+
 
 PRODUCT_NAME := lineage_Tetris
 PRODUCT_DEVICE := Tetris
@@ -41,3 +38,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 #KEY
 -include vendor/lineage-priv/keys/keys.mk
+
+# In your device.mk or BoardConfig.mk
+
+# Set maintainer
+LIGHTNINGOS_MAINTAINER := Anshuman_X
+
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := false

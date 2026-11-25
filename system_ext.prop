@@ -19,3 +19,13 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
+
+# LightningOS
+ro.lightning.display=1080 x 2400, 120 hz
+ro.lightning.battery=5000mah
+ro.lightning.soc=MediaTek Dimensity 7300
+ro.lightning.camera=50MP + 2MP
+ro.lightning.front=16MP
+ro.lightning.platform=MT6878
+ro.lightning.screen=6.67" Super AMOLED
+ro.lightning.device.name=CMF Phone 1
